@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="mb-20 text-center">
         <h1 className="text-6xl font-bold mb-6 text-gradient">
-          Welcome to Ruthless World
+          Welcome to Ruthless-World
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
           A space for blogging, branding, and showcasing my best work. Explore my thoughts, projects, and creative journey.

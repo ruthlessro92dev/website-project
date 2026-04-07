@@ -4,13 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "next": "16.2.2",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.18.0",
+    "@types/react": "19.2.14",
+    "typescript": "6.0.2",
+    "wrangler": "^4.81.0"
   }
 }
